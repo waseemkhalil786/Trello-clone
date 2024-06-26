@@ -5,28 +5,79 @@
     box-sizing: border-box;
   }
   body{
-    background: #e9baba;
+    background: #021d46;
   }
   
   header {
-    background-color: rgb(221, 142, 172);
+    background-color: rgb(37, 32, 34);
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
     align-items: center;
+    padding: 20px;
     height: 50px;
+    color: #c4d1ec;
+    font-size: 10px;
+    gap: 20px;
   }
-  
+  .btn{
+    background:  rgb(37, 32, 34);
+    color: rgb(224, 224, 224);
+    width: 120px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    
+  }
+  .btn:hover{
+    background: #2c3d5e;
+    height: 50px;
+    cursor: pointer;
+  }
+  .btn1{
+    background:  rgb(34, 102, 204);
+    color: rgb(255, 255, 255);
+    width: 65px;
+    height: 50px;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  .btn1:hover{
+    background: #4767a7;
+    height: 50px;
+    cursor: pointer; 
+  }
+  .container{
+    background-color: rgb(21, 52, 119);
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    padding: 20px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 15px;
+  }
+  h2:hover{
+    background: #303e69;
+    width: 150px;
+    height: max-content;
+    cursor: pointer;
+  }
+
   main {
     display: flex;
+    justify-content: center;
     gap: 10px;
     overflow-x: auto;
     padding: 20px;
+    margin-top: -550px;
   }
   
   .column {
+    background: #000;
     border: 2px solid rgb(240, 247, 245);
-    min-height: 300px;
-    min-width: 300px;
+    min-height: max-content;
+    min-width: max-content;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -36,7 +87,7 @@
   
   .column > h3 {
     font-size: 24px;
-    text-align: center;
+    color: rgb(204, 204, 204);
   }
   
   .column > p {
@@ -55,4 +106,23 @@
   }
   .column > form > input:hover{
     background: #fcebd8;
+  }
+  .form{
+    margin-left: 280px;
+  }
+  input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    background: transparent;
+    border: none;
+    color: #9fadbc;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .Menuebar{
+    background: #000;
+    width: 300px;
+    height: 550px;
   }
