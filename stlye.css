@@ -5,23 +5,28 @@
     box-sizing: border-box;
   }
   body{
-    background: #021d46;
+    background: #CD519D;
   }
-  
+  .logo{
+    font-size: 15px;
+  }
+  .head{
+    font-size: 20px;
+  }
   header {
-    background-color: rgb(37, 32, 34);
+    background-color: rgb(174, 69, 111);
     display: flex;
     justify-content: baseline;
     align-items: center;
     padding: 20px;
     height: 50px;
-    color: #c4d1ec;
+    color: #ffffff;
     font-size: 10px;
     gap: 20px;
   }
   .btn{
-    background:  rgb(37, 32, 34);
-    color: rgb(224, 224, 224);
+    background:  rgb(174, 69, 111);
+    color: rgb(255, 255, 255);
     width: 120px;
     height: 40px;
     border: none;
@@ -34,13 +39,13 @@
     cursor: pointer;
   }
   .btn1{
-    background:  rgb(34, 102, 204);
+    background:  rgb(195, 109, 162);
     color: rgb(255, 255, 255);
     width: 65px;
-    height: 50px;
+    height: 30px;
     border: none;
     font-size: 15px;
-    border-radius: 10px;
+    border-radius: 5px;
   }
   .btn1:hover{
     background: #4767a7;
@@ -48,14 +53,17 @@
     cursor: pointer; 
   }
   .container{
-    background-color: rgb(21, 52, 119);
+    background-color:  rgb(174, 69, 111);
     display: flex;
-    justify-content: baseline;
+    justify-content: first baseline;
     align-items: center;
+    width: 301px;
+    
     padding: 20px;
     height: 50px;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 10px;
+    border: 1px solid rgb(178, 128, 128);
   }
   h2:hover{
     background: #303e69;
@@ -67,6 +75,7 @@
   main {
     display: flex;
     justify-content: center;
+    align-items: start;
     gap: 10px;
     overflow-x: auto;
     padding: 20px;
@@ -122,8 +131,8 @@
     font-weight: 400;
   }
   .Menuebar{
-    background: #000;
+    background:  rgb(174, 69, 111);
     width: 300px;
     height: 550px;
-    border: 6px solid rgb(12, 51, 134);
+   
   }
