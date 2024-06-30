@@ -1,138 +1,216 @@
 * {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body{
-    background: #CD519D;
-  }
-  .logo{
-    font-size: 15px;
-  }
-  .head{
-    font-size: 20px;
-  }
-  header {
-    background-color: rgb(174, 69, 111);
-    display: flex;
-    justify-content: baseline;
-    align-items: center;
-    padding: 20px;
-    height: 50px;
-    color: #ffffff;
-    font-size: 10px;
-    gap: 20px;
-  }
-  .btn{
-    background:  rgb(174, 69, 111);
-    color: rgb(255, 255, 255);
-    width: 120px;
-    height: 40px;
-    border: none;
-    font-size: 15px;
-    
-  }
-  .btn:hover{
-    background: #2c3d5e;
-    height: 50px;
-    cursor: pointer;
-  }
-  .btn1{
-    background:  rgb(195, 109, 162);
-    color: rgb(255, 255, 255);
-    width: 65px;
-    height: 30px;
-    border: none;
-    font-size: 15px;
-    border-radius: 5px;
-  }
-  .btn1:hover{
-    background: #4767a7;
-    height: 50px;
-    cursor: pointer; 
-  }
-  .container{
-    background-color:  rgb(174, 69, 111);
-    display: flex;
-    justify-content: first baseline;
-    align-items: center;
-    width: 301px;
-    
-    padding: 20px;
-    height: 50px;
-    color: #ffffff;
-    font-size: 10px;
-    border: 1px solid rgb(178, 128, 128);
-  }
-  h2:hover{
-    background: #303e69;
-    width: 150px;
-    height: max-content;
-    cursor: pointer;
-  }
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #cd519d;
+}
+.logo {
+  font-size: 20px;
+}
+.head {
+  font-size: 20px;
+}
+header {
+  background-color: rgb(174, 69, 111);
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding: 20px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 10px;
+  gap: 20px;
+}
+.btn {
+  background: rgb(174, 69, 111);
+  color: rgb(255, 255, 255);
+  width: 80px;
+  height: 40px;
+  border: none;
+  font-size: 15px;
+}
+.btn:hover {
+  background: #ec30a4;
+  height: 50px;
+  cursor: pointer;
+}
+.btn1 {
+  background: rgb(222, 92, 172);
+  color: rgb(255, 255, 255);
+  width: 65px;
+  height: 30px;
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.btn1:hover {
+  background: #a74781;
+  height: 30px;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  border: 0.5px solid rgb(240, 81, 208);
+  background-color: #a84883;
+}
+.control{
+  display: flex;
+}
+h2{
+  color: #ffffff;
+  width: 300px;
+  font-size: 15px;
+  padding-left: 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #cd519d;
+  background-color: rgb(174, 69, 111);
+}
+.nav-bar{
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  width: 300px;
+  font-size: 15px;
+  padding-left: 20px;
+  gap: 20px;
+}
+.nav-bar h3:hover{
+  background: rgb(182, 135, 164);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons{
+  display: flex;
+ 
+  align-items: center;
+  gap: 20px;
+  width: 40px;
+  height: 40px;
+}
+.icon1:hover{
+  background: rgb(182, 135, 164);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon2:hover{
+  background: rgb(182, 135, 164);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 20px;
+  margin-top: -550px;
+}
 
-  main {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    gap: 10px;
-    overflow-x: auto;
-    padding: 20px;
-    margin-top: -550px;
-  }
-  
-  .column {
-    background: #000;
-    border: 2px solid rgb(240, 247, 245);
-    min-height: max-content;
-    min-width: max-content;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    border-radius: 10px;
-  }
-  
-  .column > h3 {
-    font-size: 24px;
-    color: rgb(204, 204, 204);
-  }
-  
-  .column > p {
-    padding: 8px;
-    background-color: antiquewhite;
-    text-align: center;
-    border-radius: 5px;
-  }
-  
-  .column > form > input {
-    padding: 10px;
-    width: 100%;
-    background: #ffffff;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgb(207, 169, 169);
-  }
-  .column > form > input:hover{
-    background: #fcebd8;
-  }
-  .form{
-    margin-left: 280px;
-  }
-  input {
-    width: 100%;
-    border-radius: 5px;
-    padding: 8px;
-    background: transparent;
-    border: none;
-    color: #9fadbc;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 400;
-  }
-  .Menuebar{
-    background:  rgb(174, 69, 111);
-    width: 300px;
-    height: 550px;
-   
-  }
+.column {
+  background: #000;
+  border: 2px solid rgb(240, 247, 245);
+  min-height: max-content;
+  min-width: max-content;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.column > h3 {
+  font-size: 24px;
+  color: rgb(204, 204, 204);
+}
+
+.column > p {
+  padding: 8px;
+  background-color: antiquewhite;
+  text-align: center;
+  border-radius: 5px;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 280px;
+  background:#cd519d;
+  border-radius: 5px;
+  width: 190px;
+  color: #ffffff;
+}
+
+.Main-div{
+  color: #ffffff;
+  padding: 10px;
+  width: 160px;
+  background:#cd519d;
+  height: 30px;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 10px;
+}
+.Main-div:hover{
+  background: #000;
+}
+.form:hover{
+  background: #000;
+}
+.input{
+  background: #cd519d;
+  border: none;
+  color: #ffffff;
+  width: 150px;
+  height: 20px;
+}
+input:hover{
+  background: #000;
+  color: white;
+}
+.notify{
+  font-size: 18px;
+  width: 35px;
+}
+.info{
+  width: 35px;
+  font-size: 20px;
+}
+.ac{
+  font-size: 20px;
+}
+
+button{
+  background: #dddadc;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+button:hover{
+  background: #ffffff;
+  cursor: pointer;
+}
+.notify2{
+  display: flex;
+  justify-content: end;
+  margin-left: 400px;
+}
+.Menuebar {
+  background: rgb(174, 69, 111);
+  width: 300px;
+  height: 550px;
+}

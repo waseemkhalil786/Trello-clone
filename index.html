@@ -10,6 +10,7 @@
 <body>
     <header>
         <div class="logo"><i class="fa-solid fa-bars"></i></div>
+        <div class="logo"><i class="fa-brands fa-trello" style="color: #fafafa;"></i></div>
         <h1 class="head">Trello Clone</h1>
         <select class="btn">
             <option value="btn1">Workspaces</option>
@@ -35,27 +36,56 @@
             <option value="btnl">Another action</option>
             <option value="btn1">Audi</option>
           </select>
-       <!-- / <button class="btn">Recent</button>
-        <button class="btn">Starred</button>
-        <button class="btn">Templates</button>-->
         <button class="btn1">Create</button>
         <form class="form" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+           <div class="Main-div">
+               <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="input" type="search" placeholder="Search" aria-label="Search" style="color: #fafafa;">
+           </div> 
         </form>
+        <div class="notify">
+         <i class="fa-regular fa-bell fa-rotate-by" style="--fa-rotate-angle: 40deg;"></i>
+        </div>
+        <div class="info">
+            <i class="fa-solid fa-circle-info"></i>
+        </div>
+        <div class="ac">
+            <i class="fa-solid fa-user"></i>
+        </div>
     </header>
-    <!-- Navigation bar -->
-     <div class="container">
+   
+    <div class="container">
+       <div class="control">
         <h2>Trello Workspace  <br>  Free</h3>
-     </div>
+        <div class="nav-bar">
+            <h3>My Trello Board</h3>
+            <div class="icons">
+                <div class="icon1">
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="icon2">
+                    <i class="fa-solid fa-user-group"></i>
+                </div>
+                <div class="button">
+                    <button>Board</button>
+                </div>
+                <div class="notify2">
+                    <i class="fa-regular fa-bell fa-rotate-by" style="--fa-rotate-angle: 40deg;"></i>
+                </div>
+            </div>
+        </div>
+       </div>
+       
+    </div> 
      <div class="Menuebar">
 
      </div>
     <main id="main">
         <div class="column">
-            <h3>ADD Card </h3>
+            <h3>Add Task</h3>
           
             <form>
-                <input type="text" placeholder=" +Add Card" required>
+                <input type="text" placeholder=" Add task" required>
             </form>
         </div>
         <div class="column">
@@ -65,8 +95,17 @@
                 <input type="text" placeholder="add task" required>
             </form>
         </div>
+        <form id="addCardForm">
+            <input
+              name="ticketText"
+              type="text"
+              class="box add-card-input"
+              placeholder="enter your card name"
+            />
+            <button type="submit" hidden>submit</button>
+          </form>
     </main>
-
+    <!-- <p>Ⓒ Developed and Designed by Waseem Khalil</p> -->
     <script type="module" src="./app.js"></script>
 </body>
 </html>

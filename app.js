@@ -1,5 +1,5 @@
 const column = document.querySelectorAll(".column");
-
+const addCardForm = document.querySelector("#addCardForm");
 const addTask = (event) => {
   event.preventDefault();
 
