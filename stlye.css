@@ -118,7 +118,7 @@ main {
 }
 
 .column {
-  background: #000;
+  background: #ffffff;
   border: 2px solid rgb(240, 247, 245);
   min-height: max-content;
   min-width: max-content;
@@ -127,19 +127,34 @@ main {
   flex-direction: column;
   gap: 20px;
   border-radius: 10px;
+  color: black;
 }
 
 .column > h3 {
   font-size: 24px;
-  color: rgb(204, 204, 204);
+  color: rgb(0, 0, 0);
 }
 
 .column > p {
   padding: 8px;
   background-color: antiquewhite;
+  color: #000000;
   text-align: center;
   border-radius: 5px;
 }
+.task1{
+  background: #f3e1e1;
+  width: 180px;
+  height: 35px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.task1:hover{
+  background: #c8bbbb;
+  color: black;
+} 
+
 .form {
   display: flex;
   justify-content: space-between;
@@ -165,10 +180,10 @@ main {
   border-radius: 10px;
 }
 .Main-div:hover{
-  background: #000;
+  background: #db9f9f;
 }
 .form:hover{
-  background: #000;
+  background: #db9f9f;
 }
 .input{
   background: #cd519d;
@@ -178,7 +193,7 @@ main {
   height: 20px;
 }
 input:hover{
-  background: #000;
+  background: #eaa4a4;
   color: white;
 }
 .notify{
@@ -213,4 +228,16 @@ button:hover{
   background: rgb(174, 69, 111);
   width: 300px;
   height: 550px;
+}
+.foter{
+  margin-top: 360px;
+  margin-left:470px ;
+}
+.fotter{
+  background: #ce6a6a;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  font-size: 20px;
+  width: max-content;
 }
