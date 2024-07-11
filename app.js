@@ -6,8 +6,13 @@ const btn = document.querySelector("#addCard");
 let jiselementkohamnepkrahuah = null;
 
 btn.addEventListener("click", () => {
-  const divName = prompt("Plese enter CardName!!");
+  const divName = prompt("Plese enter divName!!");
 
+  while (divName === "" || divName === null) {
+    if (divName === null) return; // User canceled prompt
+    alert("Please enter a name for the card.");
+    divName = prompt("Create card name");
+  }
   const mainDiv = createCard(divName);
   main.appendChild(mainDiv);
   btn.before(mainDiv);
@@ -23,17 +28,6 @@ const addTask = (event) => {
 
   parent.insertBefore(ticket, currentForm);
   currentForm.reset();
-
-  //   const h3Value = parent.children[0].innerText;
-  //   // console.log(h3Value);
-  //   if (!Array.isArray(savedTasks[h3Value])) {
-  //     savedTasks[h3Value] = [];
-  //   }
-
-  //   savedTasks[h3Value].push(value);
-
-  //   localStorage.setItem("savedTasks", JSON.stringify(savedTasks))
-  //   currentForm.reset();
 };
 
 for (let i = 0; i < main.length; i++) {
@@ -41,28 +35,6 @@ for (let i = 0; i < main.length; i++) {
 
   form.addEventListener("submit", addTask);
 }
-
-//local storge practice
-
-// let savedTasks = JSON.parse(localStorage.getItem("savedTasks"));
-
-// if (!savedTasks) {
-//   savedTasks = {};
-// }
-
-// for (const title in savedTasks) {
-//   const card = createCard(title);
-
-//   const arrayOfTasks = savedTasks[title];
-
-//   for (let i = 0; i < arrayOfTasks.length; i++) {
-//     const p = createTicket(arrayOfTasks[i]);
-
-//     card.insertBefore(p, card.lastElementChild);
-//   }
-
-//   main.insertBefore(card, btn);
-// }
 
 const createCard = (waseem) => {
   const mydiv = document.createElement("div");
@@ -102,7 +74,6 @@ const createCard = (waseem) => {
 
     const para = createTicket(inputKiValue);
     form.before(para);
-    // console.dir(event.target);
     form.reset();
   });
   return mydiv;
