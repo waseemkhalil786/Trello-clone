@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #cd519d;
+  background: #515bcd;
 }
 .logo {
   font-size: 20px;
@@ -14,7 +14,7 @@ body {
   font-size: 20px;
 }
 header {
-  background-color: rgb(174, 69, 111);
+  background-color: rgb(69, 87, 174);
   display: flex;
   justify-content: baseline;
   align-items: center;
@@ -25,7 +25,7 @@ header {
   gap: 20px;
 }
 .btn {
-  background: rgb(174, 69, 111);
+  background: rgb(69, 87, 174);
   color: rgb(255, 255, 255);
   width: 80px;
   height: 40px;
@@ -33,12 +33,12 @@ header {
   font-size: 15px;
 }
 .btn:hover {
-  background: #ec30a4;
+  background: rgb(105, 126, 236);
   height: 50px;
   cursor: pointer;
 }
 .btn1 {
-  background: rgb(222, 92, 172);
+  background: rgb(111, 130, 226);
   color: rgb(255, 255, 255);
   width: 65px;
   height: 30px;
@@ -47,15 +47,15 @@ header {
   border-radius: 5px;
 }
 .btn1:hover {
-  background: #a74781;
+  background: rgb(10, 24, 91);
   height: 30px;
   cursor: pointer;
 }
 .container {
   display: flex;
   justify-content: space-between;
-  border: 0.5px solid rgb(240, 81, 208);
-  background-color: #a84883;
+  border: 0.5px solid rgb(0, 42, 255);
+  background-color: rgb(49, 68, 173);
 }
 .control {
   display: flex;
@@ -68,8 +68,8 @@ h2 {
   height: 50px;
   display: flex;
   align-items: center;
-  border: 1px solid #cd519d;
-  background-color: rgb(174, 69, 111);
+  /* border: 1px solid #cd519d; */
+  background-color: rgb(69, 87, 174);
 }
 .nav-bar {
   display: flex;
@@ -81,7 +81,8 @@ h2 {
   gap: 20px;
 }
 .nav-bar h3:hover {
-  background: rgb(182, 135, 164);
+  background: rgb(5, 31, 163);
+  border-radius: 5px;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -89,20 +90,19 @@ h2 {
 }
 .icons {
   display: flex;
-
   align-items: center;
   gap: 20px;
   width: 40px;
   height: 40px;
 }
 .icon1:hover {
-  background: rgb(182, 135, 164);
+  background: rgb(85, 110, 239);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .icon2:hover {
-  background: rgb(182, 135, 164);
+  background: rgb(94, 120, 249);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,6 +128,7 @@ main .main {
   gap: 20px;
   border-radius: 10px;
   color: black;
+  
 }
 
 .main > h3 {
@@ -138,7 +139,7 @@ main .main {
 .main > p {
   padding: 8px;
   background-color: antiquewhite;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   border-radius: 5px;
 }
@@ -160,7 +161,7 @@ main .main {
   justify-content: space-between;
   align-items: center;
   margin-left: 280px;
-  background: #cd519d;
+  background: rgb(123, 145, 255);
   border-radius: 5px;
   width: 190px;
   color: #ffffff;
@@ -170,7 +171,7 @@ main .main {
   color: #ffffff;
   padding: 10px;
   width: 160px;
-  background: #cd519d;
+  background: rgb(123, 145, 255);
   height: 30px;
   border: none;
   outline: none;
@@ -180,20 +181,20 @@ main .main {
   border-radius: 10px;
 }
 .Main-div:hover {
-  background: #db9f9f;
+  background: rgb(77, 99, 212);
 }
 .form:hover {
-  background: #db9f9f;
+  background: rgb(70, 90, 188);
 }
 .input {
-  background: #cd519d;
+  background: rgb(123, 145, 255);
   border: none;
   color: #ffffff;
   width: 150px;
   height: 20px;
 }
 input:hover {
-  background: #eaa4a4;
+  background: rgb(123, 145, 255);
   color: white;
 }
 .notify {
@@ -225,16 +226,16 @@ button:hover {
   margin-left: 400px;
 }
 .Menuebar {
-  background: rgb(174, 69, 111);
+  background: rgb(61, 78, 161);
   width: 300px;
-  height: 550px;
+  height: 100vh;
 }
 .foter {
   margin-top: 360px;
   margin-left: 470px;
 }
 .fotter {
-  background: #ce6a6a;
+  background: rgb(94, 120, 249);
   display: flex;
   justify-content: center;
   align-items: end;
